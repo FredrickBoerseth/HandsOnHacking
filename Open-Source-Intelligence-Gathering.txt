@@ -1,0 +1,35 @@
+## mål for labben:
+få en introduksjon til ulike verktøy som brukes til OSINT.
+
+---
+
+## Miljø:
+- Kali Linux (ver. 2025.1)
+- VirtualBox (isolert NAT-nettverk)
+
+## Hente email adresser fra google
+
+- goog-mail.py
+- Søker i det som er offentlig informasjon for publikum via google, krever derfor ingen tillatelser.
+
+
+## Google Dorking Shadows
+
+- indentifiser sårbare nettsider:
+    inurl:/etc/passwd root:x:0:0:root:/root:/bin/bash
+- finner mange linux tutorials på denne måten, vanlig eksempel for å lære opp folk på 
+
+NB! Om det faktisk dukker opp sider med sårbarhetene sine eksponert på denne måten, blir det ansett som ulovlig å klikke på lenken.
+
+- returnerer resultater fra /etc/passwd
+- sammen med root:x:0:0:root:/root:/bin/bash, som er vanlig å finne i passwd filen
+
+
+## Kjapp intro til passwd og shadow filer
+
+
+- /etc/passwd: inneholder informasjon om brukere på host systemet. I moderne varianter av Linux/Unix systemer brukes det også en shadow fil. Der det tidligere var vanlig at både passord og brukere i systemt befant seg i denne filen.
+- /etc/shadow: brukernavn og passord, der passordet er hashet. f.ex. når man logger inn på systemet vil passordet du skriver inn bli hashet, og sammenlignet med det som befinner seg i denne filen.
+- filetype:<doc/pdf/txt> inurl:gov intext:"default password"
+
+NB! generelt er det lurt å ikke klikke på randome eksponeringer av disse resultatene, regn med at det er en kriminell handling.

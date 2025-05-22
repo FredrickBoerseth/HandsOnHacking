@@ -7,11 +7,14 @@ få en introduksjon til ulike verktøy som brukes til OSINT.
 - Kali Linux (ver. 2025.1)
 - VirtualBox (isolert NAT-nettverk)
 
+---
+
 ## Hente email adresser fra google
 
 - goog-mail.py
 - Søker i det som er offentlig informasjon for publikum via google, krever derfor ingen tillatelser.
 
+---
 
 ## Google Dorking Shadows
 
@@ -24,6 +27,7 @@ NB! Om det faktisk dukker opp sider med sårbarhetene sine eksponert på denne m
 - returnerer resultater fra /etc/passwd
 - sammen med root:x:0:0:root:/root:/bin/bash, som er vanlig å finne i passwd filen
 
+---
 
 ## Kjapp intro til passwd og shadow filer
 

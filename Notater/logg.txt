@@ -1,0 +1,8 @@
+22. mai 2025
+- Satt opp virtualbox
+- lastet den kali linux og to ulike sårbare servere fra hackerhouse
+- klargjorde kali og serverne, til å bruke et lokalt nettverk
+- oppdaterte og klargjorde kali for python
+- satt opp VScode i kali
+- fikk en intro til google dorking og passwd/shadow filer
+- hentet email adresser fra google med et python skript

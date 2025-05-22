@@ -11,7 +11,7 @@ få en introduksjon til ulike verktøy som brukes til OSINT.
 
 ## Hente email adresser fra google
 
-- goog-mail.py
+- goog-mail.py, www.hackerhouseboo.com/files/goog-mail.py
 - Søker i det som er offentlig informasjon for publikum via google, krever derfor ingen tillatelser.
 
 ---

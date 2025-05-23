@@ -37,3 +37,43 @@ NB! Om det faktisk dukker opp sider med sårbarhetene sine eksponert på denne m
 - filetype:<doc/pdf/txt> inurl:gov intext:"default password"
 
 NB! generelt er det lurt å ikke klikke på randome eksponeringer av disse resultatene, regn med at det er en kriminell handling.
+
+---
+
+## The Google Hacking Database
+
+www.exploit-db.com/google-hacking-database
+
+inurl:"q=user/password" -> lokaliser Drupal ( populært content managment framework )
+
+GHDB: en database med ulike queries / dorks
+
+NB! om du finner en klients informasjon som ligger sårbart på denne måten, sørg for at det er skrevet skriftlig at du kan ha tilgang til dette. Samtidig sørg for at det er rikig klient, firmaer kan ha like / lignende navn.
+
+
+- ikke begrens søket til google, mulig å finne offentlig tilgjengelig informasjon fra andre søkemotorer, biblioteker etc.
+- f.ex fysisk sikkerhet hvor det er mulig å finne blueprints til bygninger
+
+---
+
+## Have You Been "Pwned" Yet?
+
+haveibeenpwned.com
+- om sensitiv informasjon (brukernavn og passord) er blitt lekket på nett via dataset, og blir publisert offentlig på nett
+- kan denne tjenesten brukes for å finne ut av om informasjonen er lekket
+- ting beveger seg raskt på nett, og om dette skjer bytt passordene på de tjeneste som har hatt databreach
+
+- dette kan automatiseres ved bruk av APIen til haveibeenpwned:
+
+curl -H "hipb-api-key: <APIKEY>" https://haveibeenpwned.com/api/v3/breachedaccount/<email adresse>
+
+- mer informasjon: haveibeenpwned/API/key
+- for å unngå at folk misbruker tjenesten (APIen) ~ legg til en pause på noen sekunder i commanden
+- oversette kilder kan være en sårbarhet for firmaer etc. (press, helpdesk)
+- det å finne passordene til ulike kontoer blir det samme som å få nøkkelen til huset
+- utfra datasettene er antageligvis passordene hashet som gjør at hashen må knekkes for å komme frem til passordet
+
+---
+
+## OSINT Framework Recon-ng
+

@@ -6,3 +6,6 @@
 - satt opp VScode i kali
 - fikk en intro til google dorking og passwd/shadow filer
 - hentet email adresser fra google med et python skript
+
+23. mai 2025
+- gikk igjennom google hackingdatabase, haveibeenpwned, kapittel 4 OSINT, handsonhacking
